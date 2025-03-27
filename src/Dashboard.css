@@ -1,0 +1,132 @@
+.Logo{
+  width: 200px;
+  height: 150px;
+}
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #111;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Ensure the navbar stays on top */
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Optional: adds a slight shadow for better separation */
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    display: inline-block;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #f0a500;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .btn-pro {
+    background-color: #f0a500;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+  }
+  
+  .btn-pro:hover {
+    background-color: #e69500;
+  }
+  
+  .profile-pic img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-picture {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 50px; /* Adjust the positioning as needed */
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    min-width: 150px;
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+  }
+
+  .course-list {
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    max-width: 200vh;
+    margin: 60px auto 0; /* Adjust the top margin to the height of the navbar */
+  }
+
+  .course-header {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-top: -100px;
+  }
+
+  .dashboard-container {
+    display: flex;
+    justify-content: flex-start; /* Ensures content starts below the navbar */
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 80px 20px 20px; /* Adjust the top padding to the height of the navbar */
+  }
+
+  body{
+    overflow-y: auto;
+  }

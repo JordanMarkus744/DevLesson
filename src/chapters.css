@@ -1,0 +1,47 @@
+/* Styling for the chapter card container */
+
+.chapters-card {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 20px; /* Inner padding */
+    margin: 10px; /* Spacing between cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effects */
+    background-image: linear-gradient(white, rgb(133, 162, 182));
+    cursor: pointer; /* Pointer cursor on hover */
+    align-items: center;
+}
+
+.chapters-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+}
+
+.chapters-card-title {
+    font-size: 1.2rem; /* Slightly larger font size */
+    color: #333; /* Darker text color for readability */
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center align the text */
+    font-weight: bold; /* Bold text */
+}
+
+.chapters-course-card{
+    background-color: #333;
+    color: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 10px;
+    width: 500px;
+    text-decoration:solid;
+    align-items: center;
+}
+
+.chapters-course-header{
+
+}
+
+.chapters-course-description{
+
+}

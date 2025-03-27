@@ -1,0 +1,118 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #474747;
+}
+
+.signup-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 0.5rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.account-created {
+  color: green;
+  margin-bottom: 1rem;
+}
+
+/* Container for each course card */
+.course-card {
+  background-color: #3d3d3d;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 250px;
+  margin: 20px;
+}
+
+/* Hover effect for course cards */
+.course-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+/* Styling for the course logo */
+.course-logo {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+/* Hover effect for the logo */
+.course-card:hover .course-logo {
+  transform: rotate(360deg);
+}
+
+/* Styling for the course name */
+.course-name {
+  color: #f1f1f1;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: color 0.3s;
+}
+
+/* Hover effect for the course name */
+.course-card:hover .course-name {
+  color: #007bff;
+}
+
+.nav-link {
+  cursor: pointer;
+}
