@@ -14,3 +14,5 @@ and finally the dashboard:
 
 If you go into the C++ course this is what you will see:
 ![Alt Text](./images/Chapters.png)
+
+All information is provided by the database, making it dynamic, and scale well with new languages.
